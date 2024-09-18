@@ -23,9 +23,6 @@ A classic **Hangman** game built using **C#**. This terminal-based game challeng
 3. Build the project by selecting **Build > Build Solution**.
 4. Run the project by pressing **F5** or selecting **Debug > Start Debugging**.
 
-## Screenshots
-*(Optional: Add screenshots showing the game running in the terminal, along with the visual hangman representation.)*
-
 ## Future Improvements
 - Add more word categories and themes for greater variety.
 - Implement a multiplayer mode where players can take turns guessing words.
