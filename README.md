@@ -1,15 +1,14 @@
 # Hangman Game
 
-A classic **Hangman** game built using **C#**. This terminal-based game challenges players to guess a hidden word, letter by letter, with a limited number of incorrect guesses. Players can choose a difficulty level that affects the complexity of the words, and points are awarded based on the selected difficulty.
+A classic **Hangman** game built using **C#**. This terminal-based game offers a challenge to guess a hidden word, letter by letter, with a limited number of incorrect guesses. Players can select a difficulty level that affects the complexity of the word, and they can earn points based on their performance. The game also includes a visual representation of the hangman, and players have the option to use a hint at the cost of one attempt.
 
 ## Features
-- **Difficulty level selection**: Choose from easy, medium, or hard. The word complexity increases with the difficulty, while the number of allowed incorrect guesses remains the same.
-- **Point System**: Earn 40 points for winning on easy and 50 points for winning on hard.
-- Terminal-based **user interface**.
-- Random word selection from a predefined list.
-- Tracks and displays correct and incorrect guesses.
-- **Visual representation of the hangman** as incorrect guesses accumulate.
-- Win/lose conditions based on correct guesses before the hangman is completed.
+- **Difficulty Level Selection**: Choose between easy, medium, or hard. Word complexity increases with difficulty, while the number of guesses remains the same.
+- **Point System**: Earn points based on the number of attempts remaining. Easy mode rewards 40 points, and hard mode rewards 50 points if you win.
+- **Hint System**: Use a hint to reveal a letter at the cost of one attempt.
+- **Visual Hangman Representation**: The hangman is drawn step by step as incorrect guesses accumulate.
+- **Random Word Selection**: Words are randomly selected from a predefined list based on the chosen difficulty level.
+- **High Score Tracking**: The game keeps track of the total score and the highest score across multiple rounds.
 
 ## Technologies Used
 - **C#**
@@ -24,10 +23,10 @@ A classic **Hangman** game built using **C#**. This terminal-based game challeng
 4. Run the project by pressing **F5** or selecting **Debug > Start Debugging**.
 
 ## Future Improvements
-- Add more word categories and themes for greater variety.
+- Add more word categories and themes to increase variety.
 - Implement a multiplayer mode where players can take turns guessing words.
-- Further refine the scoring system and introduce bonuses for quick or efficient wins.
-- Create a **GUI version** for a more interactive and visually appealing experience.
+- Further expand the point system with bonuses for quicker wins or fewer attempts.
+- Develop a **GUI version** of the game for a more interactive experience.
 
 ## Contributions
 Feel free to fork this repository, submit issues, or make pull requests to contribute to this project!
