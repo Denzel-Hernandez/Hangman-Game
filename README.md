@@ -1,12 +1,14 @@
 # Hangman Game
 
-A classic **Hangman** game built using **C#**. This terminal-based game challenges players to guess a hidden word, letter by letter, with a limited number of incorrect guesses before losing.
+A classic **Hangman** game built using **C#**. This terminal-based game challenges players to guess a hidden word, letter by letter, with a limited number of incorrect guesses. Players can choose a difficulty level that affects the complexity of the words, and points are awarded based on the selected difficulty.
 
 ## Features
+- **Difficulty level selection**: Choose from easy, medium, or hard. The word complexity increases with the difficulty, while the number of allowed incorrect guesses remains the same.
+- **Point System**: Earn 40 points for winning on easy and 50 points for winning on hard.
 - Terminal-based **user interface**.
 - Random word selection from a predefined list.
 - Tracks and displays correct and incorrect guesses.
-- Visual representation of the hangman with each incorrect guess.
+- **Visual representation of the hangman** as incorrect guesses accumulate.
 - Win/lose conditions based on correct guesses before the hangman is completed.
 
 ## Technologies Used
@@ -22,13 +24,13 @@ A classic **Hangman** game built using **C#**. This terminal-based game challeng
 4. Run the project by pressing **F5** or selecting **Debug > Start Debugging**.
 
 ## Screenshots
-*(Optional: Add screenshots showing the game running in the terminal.)*
+*(Optional: Add screenshots showing the game running in the terminal, along with the visual hangman representation.)*
 
 ## Future Improvements
-- Add more categories and themes for word selection.
-- Implement a multiplayer mode where players can compete to solve words faster.
-- Add a scoring system based on the number of correct guesses and difficulty level.
-- Create a GUI version of the game for a more interactive experience.
+- Add more word categories and themes for greater variety.
+- Implement a multiplayer mode where players can take turns guessing words.
+- Further refine the scoring system and introduce bonuses for quick or efficient wins.
+- Create a **GUI version** for a more interactive and visually appealing experience.
 
 ## Contributions
 Feel free to fork this repository, submit issues, or make pull requests to contribute to this project!
